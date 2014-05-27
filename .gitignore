@@ -16,6 +16,17 @@
 *.lib
 
 # Executables
+bin
 *.exe
 *.out
 *.app
+
+# Vim cache
+.*.swp
+.*.swo
+
+# CMake
+Makefile
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
